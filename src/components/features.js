@@ -47,12 +47,16 @@ function Features(){
         padding: '10px',
         
       };*/
+      const headline ={
+        fontFamily: 'var(--bs-body-font-family)',
+        fontWeight: '800',
+      };
       
       const elements = [
         { title: "Opsamle", imgSrc: Collect, alt: "opsamle billedet", description: "Samle affald i byen til at få ressourcer og ølagte ting til bygge nye genstande" },
         { title: "Genbrug", imgSrc: Upcycle, alt: "Genbrugs billedet", description: " Organisere affald i forskellige ressourcer ved containerne" },
         { title: "Byg", imgSrc: Build, alt: "byg billedet", description: "byg nye ting med ressourcerne og klar ordre og kontrakter med det " }, 
-        { title: "Genanvend", imgSrc: Upcycle, alt: "Genanvend billedet", description: "Genanvend ølagte ting  og lav dem til ressourcer" },
+        { title: "Genanvend", imgSrc: Upcycle, alt: "Genavend billedet", description: "Genanvend ølagte ting  og lav dem til ressourcer" },
         // ...more elements
       ];
 
@@ -84,13 +88,12 @@ function Features(){
         <div class="row justify-content-center mb-5">
             {elements.map((element, index) => (
             <div class='col-lg-3 col-md-5 col-sm-12 col-xs-12 bg-primary rounded p-3 border border-dark border-1 mx-2 my-2 mb-2 hover-effect text-center' key={index} style={{ maxWidth: '250px', borderRadius: '10%', margin: '0 auto' }}>
-                <h3 class='rounded p-1 border-1 border-dark border-1 'style={{ color: '#FFD00B', fontSize: '22px'}}>{element.title}</h3>
+                <h2 style={{ color: '#FFD00B',headline, fontSize: '24px'}}>{element.title}</h2>
                 <img class="img-responsive rounded p-3 border border-dark border-1" src={element.imgSrc} alt={element.alt} style={{width:'100%',backgroundColor: '#03467A'}}></img>
                 <p>{element.description}</p>
             </div>
             ))}
         </div>
-        
     );
 
 }
