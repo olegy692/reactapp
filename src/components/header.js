@@ -9,22 +9,22 @@ function Header() {
         <nav className="nav">
           <ul className="nav-list" style={{ marginLeft: 'auto' }}>
             <li className="nav-item">
-              <Link to="section1" spy={true} smooth={true} offset={-70} duration={500}>
+              <Link to="section1" spy={true} smooth={true} offset={-70} duration={200}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="section2" spy={true} smooth={true} offset={-70} duration={500}>
+              <Link to="section2" spy={true} smooth={true} offset={-70} duration={200}>
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="section3" spy={true} smooth={true} offset={-70} duration={500}>
+              <Link to="section3" spy={true} smooth={true} offset={-70} duration={200}>
                 Features
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="section4" spy={true} smooth={true} offset={-70} duration={500}>
+              <Link to="section4" spy={true} smooth={true} offset={-70} duration={200}>
                 Creators
               </Link>
             </li>

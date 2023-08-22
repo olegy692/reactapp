@@ -2,8 +2,8 @@ import React from 'react';
 import Header from './header';
 import Footer from './footer';
 import './Main.css';
+import CarouselSection from './Carousel';
 import Features from './features';
-
 
 function Main() {
     return (
@@ -42,7 +42,11 @@ function Main() {
       </div>
 
           <div id="section2" style={{ backgroundColor: '#03467A' }} className="middle-row">
-            ABOUT
+
+
+           <CarouselSection></CarouselSection>
+
+            
           </div>
 
           <div id="section3" style={{ backgroundColor: '#03467A' }} className="middle-row">
@@ -59,5 +63,7 @@ function Main() {
       </React.Fragment>
     );
   }
+
+
   
   export default Main;
