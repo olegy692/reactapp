@@ -90,6 +90,10 @@
     scroll-behavior: smooth;
   }
 }
+.hover-effect:hover {
+  transform: scale(1.05); /* Example: Enlarge the div on hover */
+  transition: transform 0.2s ease-in-out; /* Example: Add smooth transition */
+}
 
 body {
   margin: 0;
