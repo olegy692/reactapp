@@ -4,6 +4,7 @@ import Footer from './footer';
 import './Main.css';
 import CarouselSection from './Carousel';
 import Features from './features';
+import History from './history';
 
 function Main() {
     return (
@@ -55,7 +56,7 @@ function Main() {
           </div>
 
           <div id="section4" style={{ backgroundColor: '#03467A' }} className="middle-row">
-            CREATORS
+            <History/>
           </div>
 
         </div>
