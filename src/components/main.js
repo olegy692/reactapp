@@ -41,7 +41,7 @@ function Main() {
 
       </div>
 
-          <div id="section2" style={{ backgroundColor: '#03467A' }} className="middle-row">
+          <div id="section2" style={{ backgroundColor: '#03467A' }} className="middle-row-carousel">
 
 
            <CarouselSection></CarouselSection>
